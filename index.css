@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: black;
+}
+
+nav {
+  display: flex;
+  background-color: black;
+  height: 10rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 8em;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: flex-end;
+  flex-basis: 70%;
+  column-gap: 1em;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: 4px solid white;
+  padding: 1.4em;
+  font-size: 1.125rem;
+}
+
+.nav-btn {
+  min-width: 5em;
+  flex-basis: 9rem;
+  flex-shrink: 0;
+}
+
+.btn.nav-btn:hover {
+  background-color: white;
+  border: 4px solid white;
+  color: black;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+  border: 4px solid rgb(0, 0, 0);
+  color: black;
+  cursor: pointer;
+}
+
+img {
+  height: 100%;
+  width: auto;
+}
+
+.left {
+  flex-basis: 75%;
+}
+
+main img {
+  display: block;
+  height: auto;
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6.1rem;
+  background-color: black;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 1em;
+  font-size: 2.5rem;
+}
+
+form {
+  margin: auto;
+  width: fit-content;
+  background-color: white;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+main {
+  display: flex;
+  max-width: 90%;
+  height: 100%;
+  margin: auto;
+  background-color: white;
+}
