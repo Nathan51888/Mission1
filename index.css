@@ -87,6 +87,7 @@ h2 {
 
 form {
   margin: auto;
+  margin-top: 16em;
   width: fit-content;
   background-color: white;
 }
