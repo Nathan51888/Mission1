@@ -49,18 +49,6 @@ nav {
   cursor: pointer;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  height: auto;
-  width: 100%;
-  object-fit: cover;
-  opacity: 0;
-  transition: 200ms ease-out;
-}
-
 .btn:hover .overlay {
   opacity: 1;
 }
@@ -125,6 +113,12 @@ form {
 
 .form-group {
   margin-bottom: 1em;
+}
+
+input {
+  width: 70%;
+  height: auto;
+  padding: 1em;
 }
 
 main {
